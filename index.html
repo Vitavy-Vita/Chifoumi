@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chifoumi Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barriecito&family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Chifoumi</h1>
+    <div class="container">
+      <h2 class="message">Faites votre choix!</h2>
+      <div class="selectionZone">
+        <button class="selection" type="button" data-selection="🪨" data-file="rock">🪨</button>
+        <button class="selection" type="button" data-selection="🍁" data-file="paper">🍁</button>
+        <button class="selection" type="button" data-selection="✂️" data-file="scissors">✂️</button>
+      </div>
+      <div class="image">
+        <div class="computer">
+          <img src="img/rockComputer.png" />
+        </div>
+        <div class="scores">
+          <span class="computerPoints">0</span> VS
+          <span class="playerPoints">0</span>
+        </div>
+        <div class="player">
+          <img src="img/rockPlayer.png" />
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="point">
+          ORDINATEUR  JOUEUR
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
